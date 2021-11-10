@@ -46,7 +46,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: daanmth/foodoo_backend:latest
+        tags: daanmth/foodoo-backend:latest
 
     - name: Image digest
       run: echo ${{ steps.docker_build.outputs.digest }}
