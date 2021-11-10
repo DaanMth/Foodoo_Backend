@@ -1,19 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using FoodooBackend.Data;
 using FoodooBackend.Logic;
-using FoodooBackend.Models;
 using FoodooBackend.Models.ApiModels;
 using FoodooBackend.Models.DataModels;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
-namespace Foodoo.Controllers
+namespace FoodooBackend.Api.Controllers
 {
     [EnableCors("AllowCORS")]
     [ApiController]
@@ -56,6 +51,4 @@ namespace Foodoo.Controllers
             return new RecipeLogic(context).GetRecipeById(id);
         }
     }
-    
-   
 }

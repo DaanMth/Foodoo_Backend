@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\dmath\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\dmath\\.nuget\\packages"
-    ]
-  }
-}
