@@ -1,0 +1,12 @@
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Models\bin\Debug\net5.0\FoodooBackend.Models.deps.json
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Models\bin\Debug\net5.0\FoodooBackend.Models.dll
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Models\bin\Debug\net5.0\ref\FoodooBackend.Models.dll
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Models\bin\Debug\net5.0\FoodooBackend.Models.pdb
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Models\obj\Debug\net5.0\FoodooBackend.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Models\obj\Debug\net5.0\FoodooBackend.Models.AssemblyInfoInputs.cache
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Models\obj\Debug\net5.0\FoodooBackend.Models.AssemblyInfo.cs
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Models\obj\Debug\net5.0\FoodooBackend.Models.csproj.CoreCompileInputs.cache
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Models\obj\Debug\net5.0\FoodooBackend.Models.dll
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Models\obj\Debug\net5.0\ref\FoodooBackend.Models.dll
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Models\obj\Debug\net5.0\FoodooBackend.Models.pdb
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Models\obj\Debug\net5.0\FoodooBackend.Models.csproj.AssemblyReference.cache

@@ -1,0 +1,15 @@
+C:\Users\dmath\RiderProjects\Foodoo.Data\Foodoo.Data\bin\Debug\net5.0\Foodoo.Data.deps.json
+C:\Users\dmath\RiderProjects\Foodoo.Data\Foodoo.Data\bin\Debug\net5.0\Foodoo.Data.dll
+C:\Users\dmath\RiderProjects\Foodoo.Data\Foodoo.Data\bin\Debug\net5.0\ref\Foodoo.Data.dll
+C:\Users\dmath\RiderProjects\Foodoo.Data\Foodoo.Data\bin\Debug\net5.0\Foodoo.Data.pdb
+C:\Users\dmath\RiderProjects\Foodoo.Data\Foodoo.Data\bin\Debug\net5.0\Foodoo.Models.dll
+C:\Users\dmath\RiderProjects\Foodoo.Data\Foodoo.Data\bin\Debug\net5.0\Foodoo.Models.pdb
+C:\Users\dmath\RiderProjects\Foodoo.Data\Foodoo.Data\obj\Debug\net5.0\Foodoo.Data.csproj.AssemblyReference.cache
+C:\Users\dmath\RiderProjects\Foodoo.Data\Foodoo.Data\obj\Debug\net5.0\Foodoo.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmath\RiderProjects\Foodoo.Data\Foodoo.Data\obj\Debug\net5.0\Foodoo.Data.AssemblyInfoInputs.cache
+C:\Users\dmath\RiderProjects\Foodoo.Data\Foodoo.Data\obj\Debug\net5.0\Foodoo.Data.AssemblyInfo.cs
+C:\Users\dmath\RiderProjects\Foodoo.Data\Foodoo.Data\obj\Debug\net5.0\Foodoo.Data.csproj.CoreCompileInputs.cache
+C:\Users\dmath\RiderProjects\Foodoo.Data\Foodoo.Data\obj\Debug\net5.0\Foodoo.Data.csproj.CopyComplete
+C:\Users\dmath\RiderProjects\Foodoo.Data\Foodoo.Data\obj\Debug\net5.0\Foodoo.Data.dll
+C:\Users\dmath\RiderProjects\Foodoo.Data\Foodoo.Data\obj\Debug\net5.0\ref\Foodoo.Data.dll
+C:\Users\dmath\RiderProjects\Foodoo.Data\Foodoo.Data\obj\Debug\net5.0\Foodoo.Data.pdb
