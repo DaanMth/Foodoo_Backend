@@ -5,16 +5,16 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["FoodooBackend/FoodooBackend.csproj", "FoodooBackend/"]
-RUN dotnet restore "FoodooBackend/FoodooBackend.csproj"
+COPY ["FoodooBackend.Api/FoodooBackend.Api.csproj", "FoodooBackend.Api/"]
+RUN dotnet restore "FoodooBackend.Api/FoodooBackend.Api.csproj"
 COPY . .
-WORKDIR "/src/FoodooBackend"
-RUN dotnet build "FoodooBackend.csproj" -c Release -o /app/build
+WORKDIR "/src/FoodooBackend.Api"
+RUN dotnet build "FoodooBackend.Api.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "FoodooBackend.csproj" -c Release -o /app/publish
+RUN dotnet publish "FoodooBackend.Api.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "FoodooBackend.dll"]
+ENTRYPOINT ["dotnet", "FoodooBackend.Api.dll"]
