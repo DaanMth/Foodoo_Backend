@@ -255,6 +255,19 @@
           "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
         }
       },
+      "FoodooBackend.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "FoodooBackend.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FoodooBackend.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FoodooBackend.Interfaces.dll": {}
+        }
+      },
       "FoodooBackend.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -753,6 +766,11 @@
         "version.txt"
       ]
     },
+    "FoodooBackend.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../FoodooBackend.Interfaces/FoodooBackend.Interfaces.csproj",
+      "msbuildProject": "../FoodooBackend.Interfaces/FoodooBackend.Interfaces.csproj"
+    },
     "FoodooBackend.Models/1.0.0": {
       "type": "project",
       "path": "../FoodooBackend.Models/FoodooBackend.Models.csproj",
@@ -761,6 +779,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "FoodooBackend.Interfaces >= 1.0.0",
       "FoodooBackend.Models >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.10"
     ]
@@ -792,6 +811,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\dmath\\RiderProjects\\FoodooBackend\\FoodooBackend.Interfaces\\FoodooBackend.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\dmath\\RiderProjects\\FoodooBackend\\FoodooBackend.Interfaces\\FoodooBackend.Interfaces.csproj"
+            },
             "C:\\Users\\dmath\\RiderProjects\\FoodooBackend\\FoodooBackend.Models\\FoodooBackend.Models.csproj": {
               "projectPath": "C:\\Users\\dmath\\RiderProjects\\FoodooBackend\\FoodooBackend.Models\\FoodooBackend.Models.csproj"
             }

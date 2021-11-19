@@ -213,11 +213,20 @@
       "System.Text.Encodings.Web/4.5.0": {},
       "FoodooBackend.Data/1.0.0": {
         "dependencies": {
+          "FoodooBackend.Interfaces": "1.0.0",
           "FoodooBackend.Models": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.10"
         },
         "runtime": {
           "FoodooBackend.Data.dll": {}
+        }
+      },
+      "FoodooBackend.Interfaces/1.0.0": {
+        "dependencies": {
+          "FoodooBackend.Models": "1.0.0"
+        },
+        "runtime": {
+          "FoodooBackend.Interfaces.dll": {}
         }
       },
       "FoodooBackend.Models/1.0.0": {
@@ -391,6 +400,11 @@
       "hashPath": "system.text.encodings.web.4.5.0.nupkg.sha512"
     },
     "FoodooBackend.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FoodooBackend.Interfaces/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

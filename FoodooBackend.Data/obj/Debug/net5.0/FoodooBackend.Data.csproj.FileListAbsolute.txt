@@ -13,3 +13,5 @@ C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Data\obj\Debug\net5.0\F
 C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Data\obj\Debug\net5.0\FoodooBackend.Data.dll
 C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Data\obj\Debug\net5.0\ref\FoodooBackend.Data.dll
 C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Data\obj\Debug\net5.0\FoodooBackend.Data.pdb
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Data\bin\Debug\net5.0\FoodooBackend.Interfaces.dll
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Data\bin\Debug\net5.0\FoodooBackend.Interfaces.pdb

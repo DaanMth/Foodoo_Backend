@@ -40,3 +40,5 @@ C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Api\obj\Debug\net5.0\Fo
 C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Api\obj\Debug\net5.0\ref\FoodooBackend.Api.dll
 C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Api\obj\Debug\net5.0\FoodooBackend.Api.pdb
 C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Api\obj\Debug\net5.0\FoodooBackend.Api.genruntimeconfig.cache
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Api\bin\Debug\net5.0\FoodooBackend.Interfaces.dll
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Api\bin\Debug\net5.0\FoodooBackend.Interfaces.pdb

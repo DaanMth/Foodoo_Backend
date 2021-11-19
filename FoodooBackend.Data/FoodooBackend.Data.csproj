@@ -9,6 +9,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\FoodooBackend.Interfaces\FoodooBackend.Interfaces.csproj" />
       <ProjectReference Include="..\FoodooBackend.Models\FoodooBackend.Models.csproj" />
     </ItemGroup>
 </Project>

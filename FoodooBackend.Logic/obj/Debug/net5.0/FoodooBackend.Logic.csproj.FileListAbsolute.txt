@@ -15,3 +15,5 @@ C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Logic\obj\Debug\net5.0\
 C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Logic\obj\Debug\net5.0\FoodooBackend.Logic.dll
 C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Logic\obj\Debug\net5.0\ref\FoodooBackend.Logic.dll
 C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Logic\obj\Debug\net5.0\FoodooBackend.Logic.pdb
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Logic\bin\Debug\net5.0\FoodooBackend.Interfaces.dll
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Logic\bin\Debug\net5.0\FoodooBackend.Interfaces.pdb

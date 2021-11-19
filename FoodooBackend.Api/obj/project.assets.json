@@ -381,6 +381,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "FoodooBackend.Interfaces": "1.0.0",
           "FoodooBackend.Models": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.10"
         },
@@ -389,6 +390,19 @@
         },
         "runtime": {
           "bin/placeholder/FoodooBackend.Data.dll": {}
+        }
+      },
+      "FoodooBackend.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "FoodooBackend.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FoodooBackend.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FoodooBackend.Interfaces.dll": {}
         }
       },
       "FoodooBackend.Logic/1.0.0": {
@@ -1093,6 +1107,11 @@
       "type": "project",
       "path": "../FoodooBackend.Data/FoodooBackend.Data.csproj",
       "msbuildProject": "../FoodooBackend.Data/FoodooBackend.Data.csproj"
+    },
+    "FoodooBackend.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../FoodooBackend.Interfaces/FoodooBackend.Interfaces.csproj",
+      "msbuildProject": "../FoodooBackend.Interfaces/FoodooBackend.Interfaces.csproj"
     },
     "FoodooBackend.Logic/1.0.0": {
       "type": "project",
