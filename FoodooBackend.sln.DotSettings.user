@@ -1,0 +1,18 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=02e23e34_002D4683_002D4176_002D8a41_002D570c6e3f3226/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddRecipe_RightAnswer" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8E9A5C74-0E73-41D9-BB95-FB90A72CB327::net5.0::FoodooBackend.Tests.Tests.AddRecipe_RightAnswer&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a8567ae3_002D0c1d_002D4a1e_002Db83a_002D8a089f95b104/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddRecipe_RightAnswer #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8E9A5C74-0E73-41D9-BB95-FB90A72CB327::net5.0::FoodooBackend.Tests.Tests.AddRecipe_RightAnswer&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8E9A5C74-0E73-41D9-BB95-FB90A72CB327::net5.0::FoodooBackend.Tests.Tests.GetRecipes&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f4382aa3_002D9e7a_002D4c24_002Da4af_002D6d7686e02ceb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddRecipe" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8E9A5C74-0E73-41D9-BB95-FB90A72CB327::net5.0::FoodooBackend.Tests.Tests.AddRecipe_RightAnswer&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

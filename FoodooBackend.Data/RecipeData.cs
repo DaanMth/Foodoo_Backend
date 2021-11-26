@@ -28,6 +28,12 @@ namespace FoodooBackend.Data
             return context.Recipe.ToList();
         }
 
+        public void DeleteRecipe(Guid id)
+        {
+            RecipeModel recipeModel = new RecipeModel() { Id = id };
+            context.Recipe.Remove(recipeModel);
+            context.SaveChanges();
+        }
         public RecipeModel GetRecipeById(string id)
         {
             return context.Recipe

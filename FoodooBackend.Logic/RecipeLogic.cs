@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using FoodooBackend.Data;
@@ -14,6 +15,10 @@ namespace FoodooBackend.Logic
         public RecipeLogic(FoodooContext _context)
         {
             _recipeData = new RecipeData(_context);
+        }
+        
+        public RecipeLogic()
+        {
         }
 
         private void SaveFile(IFormFile uploadedFile, string _path)
@@ -49,6 +54,11 @@ namespace FoodooBackend.Logic
         public List<ApiRecipeUpload> GetRecipes()
         {
             return _recipeData.GetAll().Select(model => new ApiRecipeUpload() {Name = model.Name, Carbs = model.Carbs, Description = model.Description, Image = model.Image, Ingredients = model.Ingredients, Preparation = model.Preparation, Id = model.Id}).ToList();
+        }
+
+        public void DeleteRecipe(Guid id)
+        {
+            _recipeData.DeleteRecipe(id);
         }
 
         public RecipeModel GetRecipeById(string id)

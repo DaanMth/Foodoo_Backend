@@ -22,6 +22,11 @@ namespace FoodooBackend.Api.Controllers
             context = _context;
             environment = _environment;
         }
+
+        public RecipeController()
+        {
+            
+        }
         
         [HttpGet]
         public List<ApiRecipeUpload> GetPageRecipes()
@@ -49,6 +54,12 @@ namespace FoodooBackend.Api.Controllers
         public RecipeModel GetRecipeById(string id)
         {
             return new RecipeLogic(context).GetRecipeById(id);
+        }
+
+        [HttpPost("/recipe/delete")]
+        public void DeleteRecipe(string id)
+        {
+            DeleteRecipe(id);
         }
     }
 }
