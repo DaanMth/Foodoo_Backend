@@ -15,23 +15,19 @@ namespace FoodooBackend.Api.Controllers
     [Route("[controller]")]
     public class RecipeController : ControllerBase
     {
-        private readonly FoodooContext context;
-        private IWebHostEnvironment environment;
-        public RecipeController(FoodooContext _context, IWebHostEnvironment _environment)
+        private readonly FoodooContext _context;
+        private readonly RecipeLogic _recipeLogic;
+        private IWebHostEnvironment _environment;
+        public RecipeController(FoodooContext foodooContext, IWebHostEnvironment environment)
         {
-            context = _context;
-            environment = _environment;
-        }
-
-        public RecipeController()
-        {
-            
+            _recipeLogic = new RecipeLogic(new RecipeData(foodooContext));
+            _environment = environment;
         }
         
         [HttpGet]
         public List<ApiRecipeUpload> GetPageRecipes()
         {
-            return new RecipeLogic(context).GetRecipes();
+            return _recipeLogic.GetRecipes();
         }
 
         [HttpPost("/recipe")]
@@ -47,19 +43,19 @@ namespace FoodooBackend.Api.Controllers
                 Ingredients = collection["ingredients"],
                 Preparation = collection["preparation"]
             };
-            new RecipeLogic(context).AddNewRecipe(model, image, environment.WebRootPath);
+            _recipeLogic.AddNewRecipe(model, image, _environment.WebRootPath);
         }
 
         [HttpGet("/recipe/{id}")]
         public RecipeModel GetRecipeById(string id)
         {
-            return new RecipeLogic(context).GetRecipeById(id);
+            return _recipeLogic.GetRecipeById(id);
         }
 
-        [HttpPost("/recipe/delete")]
+        [HttpPost("/recipe/delete/{id}")]
         public void DeleteRecipe(string id)
         {
-            DeleteRecipe(id);
+            _recipeLogic.DeleteRecipe(id);
         }
     }
 }

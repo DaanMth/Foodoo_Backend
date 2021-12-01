@@ -1,44 +1,46 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using FoodooBackend.Interfaces;
 using FoodooBackend.Models;
 using FoodooBackend.Models.ApiModels;
 using FoodooBackend.Models.DataModels;
 
 namespace FoodooBackend.Data
 {
-    public class RecipeData
+    public class RecipeData : IRecipeData
     {
-        private readonly FoodooContext context;
+        private readonly FoodooContext _context;
 
-        public RecipeData(FoodooContext _context)
+        public RecipeData(FoodooContext context)
         {
-            context = _context;
+            _context = context;
         }
 
         public void AddRecipe(RecipeModel recipeModel)
         {
             recipeModel.Id = Guid.NewGuid();
-            context.Recipe.Add(recipeModel);
-            context.SaveChanges();
+            _context.Recipe.Add(recipeModel);
+            _context.SaveChanges();
         }
 
         public List<RecipeModel> GetAll()
         {
-            return context.Recipe.ToList();
+            return _context.Recipe.ToList();
         }
 
-        public void DeleteRecipe(Guid id)
+        public void DeleteRecipe(string id)
         {
-            RecipeModel recipeModel = new RecipeModel() { Id = id };
-            context.Recipe.Remove(recipeModel);
-            context.SaveChanges();
+            _context.Recipe.Remove(GetRecipeById(id));
+            _context.SaveChanges();
         }
+
         public RecipeModel GetRecipeById(string id)
         {
-            return context.Recipe
-                .FirstOrDefault(r => r.Id.ToString() == id);;
+            return _context.Recipe
+                .FirstOrDefault(r => r.Id.ToString() == id);
+            ;
         }
-            
+
     }
 }

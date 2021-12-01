@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using FoodooBackend.Interfaces;
 using FoodooBackend.Models;
 using FoodooBackend.Models.ApiModels;
@@ -20,6 +21,16 @@ namespace FoodooBackend.Data
             _context.Accounts.Add(account);
             _context.SaveChanges();
             
+        }
+
+        public Account GetAccountByEmail(string email)
+        {
+            return _context.Accounts.FirstOrDefault(x => x.Email == email);
+        }
+        
+        public Account GetAccountByUsername(string username)
+        {
+            return _context.Accounts.FirstOrDefault(x => x.Email == username);
         }
     }
 }

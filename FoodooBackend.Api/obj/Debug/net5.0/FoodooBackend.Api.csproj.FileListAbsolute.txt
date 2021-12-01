@@ -42,3 +42,8 @@ C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Api\obj\Debug\net5.0\Fo
 C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Api\obj\Debug\net5.0\FoodooBackend.Api.genruntimeconfig.cache
 C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Api\bin\Debug\net5.0\FoodooBackend.Interfaces.dll
 C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Api\bin\Debug\net5.0\FoodooBackend.Interfaces.pdb
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Api\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Api\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Api\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

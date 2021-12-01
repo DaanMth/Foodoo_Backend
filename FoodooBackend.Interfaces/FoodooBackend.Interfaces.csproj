@@ -8,4 +8,8 @@
       <ProjectReference Include="..\FoodooBackend.Models\FoodooBackend.Models.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.2.4" />
+    </ItemGroup>
+
 </Project>

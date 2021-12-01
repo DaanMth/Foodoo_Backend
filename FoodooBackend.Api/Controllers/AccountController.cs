@@ -1,5 +1,6 @@
 ﻿using FoodooBackend.Data;
 using FoodooBackend.Logic;
+using FoodooBackend.Models;
 using FoodooBackend.Models.ApiModels;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
@@ -22,6 +23,12 @@ namespace FoodooBackend.Api.Controllers
         public void Register(ApiAccount account)
         {
             _accountLogic.Register(account);
+        }
+
+        [HttpPost("/account/login")]
+        public string Login(ApiAccount account)
+        {
+            return _accountLogic.Login(account);
         }
     }
 }

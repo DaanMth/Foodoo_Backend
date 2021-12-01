@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using FoodooBackend.Data;
+using FoodooBackend.Interfaces;
 using FoodooBackend.Models.ApiModels;
 using FoodooBackend.Models.DataModels;
 using Microsoft.AspNetCore.Http;
@@ -11,16 +12,12 @@ namespace FoodooBackend.Logic
 {
     public class RecipeLogic
     {
-        private readonly RecipeData _recipeData;
-        public RecipeLogic(FoodooContext _context)
+        private readonly IRecipeData _recipeData;
+        public RecipeLogic(IRecipeData recipeData)
         {
-            _recipeData = new RecipeData(_context);
+            _recipeData = recipeData;
         }
         
-        public RecipeLogic()
-        {
-        }
-
         private void SaveFile(IFormFile uploadedFile, string _path)
         {
             string path = Path.Combine(_path, "Uploads");
@@ -50,13 +47,12 @@ namespace FoodooBackend.Logic
                 Preparation = upload.Preparation
             });
         }
-        
         public List<ApiRecipeUpload> GetRecipes()
         {
             return _recipeData.GetAll().Select(model => new ApiRecipeUpload() {Name = model.Name, Carbs = model.Carbs, Description = model.Description, Image = model.Image, Ingredients = model.Ingredients, Preparation = model.Preparation, Id = model.Id}).ToList();
         }
 
-        public void DeleteRecipe(Guid id)
+        public void DeleteRecipe(string id)
         {
             _recipeData.DeleteRecipe(id);
         }

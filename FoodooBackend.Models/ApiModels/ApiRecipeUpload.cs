@@ -11,6 +11,6 @@ namespace FoodooBackend.Models.ApiModels
         public string Ingredients { get; set; }
         public string Preparation { get; set; }
         public string Carbs { get; set; }
-        public string Image { get; set; }
+        public string Image { get; set; } = "";
     }
 }
