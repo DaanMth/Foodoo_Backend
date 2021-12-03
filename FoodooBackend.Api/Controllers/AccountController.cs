@@ -30,5 +30,12 @@ namespace FoodooBackend.Api.Controllers
         {
             return _accountLogic.Login(account);
         }
+
+        [HttpGet("/account/info/{token}")]
+        public IActionResult GetAccountInfo(string token)
+        {
+                return StatusCode(200, AuthenticationLogic.getAccountInfo(token));
+            
+        }
     }
 }

@@ -55,7 +55,7 @@ namespace FoodooBackend.Logic
             Account account = _accountData.GetAccountByEmail(apiAccount.Email);
             if (account.Password != null && Encrypt(apiAccount.Password) == account.Password)
             {
-                return AuthenticationLogic.GenerateToken(account.Username, account.Email);
+                return AuthenticationLogic.GenerateToken(account.Id.ToString(), account.Username, account.Email);
             }
             else
             {
