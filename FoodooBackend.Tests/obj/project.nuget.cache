@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bLYb4RLGhVlHMP16XoFPkmoDn0Ryy7/wCz+lkTqRKPi7xolV9fCL1cfdN5vgS12SntpBKdm3z0x341ELKsAbNw==",
+  "dgSpecHash": "VLs4KeZFSVwz9sPwfneawI/9vf7E3c6f2hL5YNTKGlGOSOVxmhWYAF5G8u/kJeFXK8tKPV6J/QrIcATnK4ENlA==",
   "success": true,
   "projectFilePath": "C:\\Users\\dmath\\RiderProjects\\FoodooBackend\\FoodooBackend.Tests\\FoodooBackend.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dmath\\.nuget\\packages\\bcrypt.net\\0.1.0\\bcrypt.net.0.1.0.nupkg.sha512",
     "C:\\Users\\dmath\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\dmath\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "C:\\Users\\dmath\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
@@ -137,5 +138,16 @@
     "C:\\Users\\dmath\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\dmath\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BCrypt.Net 0.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "BCrypt.Net",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

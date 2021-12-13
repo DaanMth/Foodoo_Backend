@@ -1,7 +1,9 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3b652ce2_002D5ecc_002D4191_002D83bb_002Da759e8a6b247/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Register_NameTaken #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3b652ce2_002D5ecc_002D4191_002D83bb_002Da759e8a6b247/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Register_NameTaken #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::8E9A5C74-0E73-41D9-BB95-FB90A72CB327::net5.0::FoodooBackend.Tests.AccountTests.Register_NameTaken&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8E9A5C74-0E73-41D9-BB95-FB90A72CB327::net5.0::FoodooBackend.Tests.AccountTests.Validate_WrongPassword&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8E9A5C74-0E73-41D9-BB95-FB90A72CB327::net5.0::FoodooBackend.Tests.AccountTests.Validate_RightPassword&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6fa36734_002Dd7dd_002D4588_002D927b_002Da89c9df1630d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Register_NameTaken #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
@@ -9,9 +11,10 @@
     &lt;TestId&gt;NUnit3x::8E9A5C74-0E73-41D9-BB95-FB90A72CB327::net5.0::FoodooBackend.Tests.AccountTests.Register_NameTaken&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=77a64fd0_002Dfb8f_002D4975_002Dbc3a_002Da4b662149ba5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Register_NameTaken #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=77a64fd0_002Dfb8f_002D4975_002Dbc3a_002Da4b662149ba5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Register_NameTaken #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::8E9A5C74-0E73-41D9-BB95-FB90A72CB327::net5.0::FoodooBackend.Tests.AccountTests.Register_NameTaken&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8E9A5C74-0E73-41D9-BB95-FB90A72CB327::net5.0::FoodooBackend.Tests.RecipeTests.AddRecipe_RightAnswer&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=904e1ed2_002D509e_002D4123_002Db1fd_002D5792a399f90c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Register_Success" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;

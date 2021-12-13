@@ -1,4 +1,5 @@
 using System;
+using FoodooBackend.Api;
 using FoodooBackend.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -38,6 +39,7 @@ namespace FoodooBackend
                         );
                     });
             });
+            services.AddSignalR();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -72,7 +74,8 @@ namespace FoodooBackend
                 endpoints.MapControllerRoute(  
                     name:"default",  
                     pattern:"{controller=recipe}/{action=index}/{id?}"  
-                );  
+                );
+                endpoints.MapHub<FoodooHub>("/hub");
             });
         }
     }

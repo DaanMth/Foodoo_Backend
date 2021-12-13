@@ -38,7 +38,7 @@ namespace FoodooBackend.Tests
         }
 
         [Test]
-        public void Regiser_AccountExists()
+        public void Register_AccountExists()
         {
             //arrange
             AccountLogic logic = new(new FakeAccountData());
@@ -73,6 +73,40 @@ namespace FoodooBackend.Tests
 
             //assert
             Assert.IsTrue(result);
+        }
+
+        [Test]
+        public void Validate_RightPassword()
+        {
+            //arrange
+            Account account = new Account(
+                "test@gmail.com",
+                "username",
+                "password"
+            );
+            
+            //act
+            bool result = account.ValidatePassword("password");
+            
+            //assert
+            Assert.IsTrue(result);
+        }
+        
+        [Test]
+        public void Validate_WrongPassword()
+        {
+            //arrange
+            Account account = new Account(
+                "test@gmail.com",
+                "username",
+                "password"
+            );
+            
+            //act
+            bool result = account.ValidatePassword("wrongpassword");
+            
+            //assert
+            Assert.IsFalse(result);
         }
     }
 }

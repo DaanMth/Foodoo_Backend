@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using BCrypt.Net;
 
 namespace FoodooBackend.Models
 {
@@ -18,8 +19,14 @@ namespace FoodooBackend.Models
         {
             Email = email;
             Username = username;
-            Password = password;
+            Password = BCrypt.Net.BCrypt.HashPassword(password);
         }
+        public bool ValidatePassword(string password)
+        {
+            return BCrypt.Net.BCrypt.Verify(password, Password);
+        }
+        
+        
         
     }
 }

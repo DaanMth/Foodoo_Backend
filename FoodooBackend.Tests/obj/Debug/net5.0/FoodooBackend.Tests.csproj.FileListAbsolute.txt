@@ -127,3 +127,8 @@ C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Tests\obj\Debug\net5.0\
 C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Tests\obj\Debug\net5.0\ref\FoodooBackend.Tests.dll
 C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Tests\obj\Debug\net5.0\FoodooBackend.Tests.pdb
 C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Tests\obj\Debug\net5.0\FoodooBackend.Tests.genruntimeconfig.cache
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Tests\bin\Debug\net5.0\BCrypt.Net.dll
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Tests\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Tests\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Tests\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Tests\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

@@ -18,7 +18,8 @@ namespace FoodooBackend.Api.Controllers
         private readonly FoodooContext _context;
         private readonly RecipeLogic _recipeLogic;
         private IWebHostEnvironment _environment;
-        public RecipeController(FoodooContext foodooContext, IWebHostEnvironment environment)
+        public RecipeController(FoodooContext foodooContext, IWebHostEnvironment environment
+        )
         {
             _recipeLogic = new RecipeLogic(new RecipeData(foodooContext));
             _environment = environment;
@@ -44,6 +45,7 @@ namespace FoodooBackend.Api.Controllers
                 Preparation = collection["preparation"]
             };
             _recipeLogic.AddNewRecipe(model, image, _environment.WebRootPath);
+            
         }
 
         [HttpGet("/recipe/{id}")]

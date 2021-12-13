@@ -4,6 +4,8 @@ using FoodooBackend.Logic;
 using FoodooBackend.Models.DataModels;
 using FoodooBackend.Api;
 using FoodooBackend.Api.Controllers;
+using FoodooBackend.Data;
+using FoodooBackend.Models;
 using FoodooBackend.Models.ApiModels;
 using Microsoft.AspNetCore.Http;
 
@@ -20,11 +22,7 @@ namespace FoodooBackend.Tests
         [Test]
         public void AddRecipe_RightAnswer()
         {
-            //arrange
             
-            //act
-            
-            //assert
         }
 
         [Test]

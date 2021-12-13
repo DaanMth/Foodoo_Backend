@@ -47,3 +47,4 @@ C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Api\bin\Debug\net5.0\Mi
 C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Api\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\dmath\RiderProjects\FoodooBackend\FoodooBackend.Api\bin\Debug\net5.0\BCrypt.Net.dll
