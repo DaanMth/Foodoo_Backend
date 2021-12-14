@@ -1,4 +1,6 @@
-﻿using FoodooBackend.Data;
+﻿using System;
+using System.Threading.Tasks;
+using FoodooBackend.Data;
 using FoodooBackend.Logic;
 using FoodooBackend.Models;
 using FoodooBackend.Models.ApiModels;
@@ -36,6 +38,13 @@ namespace FoodooBackend.Api.Controllers
         {
                 return StatusCode(200, AuthenticationLogic.getAccountInfo(token));
             
+        }
+
+        [HttpPost("/googleauth/{token}")]
+        public async Task<ActionResult<Account>> GoogleLogin(string token)
+        {
+            Account account = await _accountLogic.GoogleAuth(token);
+            return account;
         }
     }
 }

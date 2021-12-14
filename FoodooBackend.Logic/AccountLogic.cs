@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Security.Cryptography;
 using System.Text;
+using System.Threading.Tasks;
+using FoodooBackend.Data;
 using FoodooBackend.Interfaces;
 using FoodooBackend.Models;
 using FoodooBackend.Models.ApiModels;
@@ -39,6 +41,31 @@ namespace FoodooBackend.Logic
                 return "wrong password or username";
             }
 
+        }
+
+        public async Task<Account> GoogleAuth(string token)
+        {
+            Account googleAccount = await _accountData.GetGoogleAuthDataAsync(token);
+            if (googleAccount.Username != null)
+            {
+                Account checkGoogleAccount = await _accountData.GoogleAuthSelectAData(googleAccount.Username, googleAccount.Email);
+                if (checkGoogleAccount != null)
+                {
+                    return checkGoogleAccount;
+                }
+                else
+                {
+                    googleAccount.Id = Guid.NewGuid();
+                    Account account = await _accountData.GoogleAuthInsertAccount(googleAccount);
+                    return account;
+                }
+            }
+            else
+            {
+                Account emptyAccount = new Account();
+                return emptyAccount;
+            }
+            
         }
     }
 }

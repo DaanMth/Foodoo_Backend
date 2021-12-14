@@ -47,6 +47,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.55.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.10, )"
@@ -115,6 +123,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[5.2.4, )"
@@ -175,9 +187,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "BCrypt.Net": {
+            "BCrypt.Net-Next": {
               "target": "Package",
-              "version": "[0.1.0, )"
+              "version": "[4.0.2, )"
             },
             "Microsoft.AspNetCore.Http": {
               "target": "Package",

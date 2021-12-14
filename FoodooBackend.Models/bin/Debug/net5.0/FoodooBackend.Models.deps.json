@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "FoodooBackend.Models/1.0.0": {
         "dependencies": {
-          "BCrypt.Net": "0.1.0",
+          "BCrypt.Net-Next": "4.0.2",
           "Microsoft.AspNetCore.Http": "2.2.2",
           "System.IdentityModel.Tokens.Jwt": "5.2.4"
         },
@@ -16,11 +16,11 @@
           "FoodooBackend.Models.dll": {}
         }
       },
-      "BCrypt.Net/0.1.0": {
+      "BCrypt.Net-Next/4.0.2": {
         "runtime": {
-          "lib/net35/BCrypt.Net.dll": {
-            "assemblyVersion": "0.1.4141.31969",
-            "fileVersion": "0.1.0.0"
+          "lib/net5.0/BCrypt.Net-Next.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
           }
         }
       },
@@ -1096,12 +1096,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "BCrypt.Net/0.1.0": {
+    "BCrypt.Net-Next/4.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-sST2w361Dxt9GGMfpOTiK50wXGV64Ybb1hiX3xjEWnhVYZNF43NuySGwADJa7X1R+bA53NsFR+tuDxcYiJeIOA==",
-      "path": "bcrypt.net/0.1.0",
-      "hashPath": "bcrypt.net.0.1.0.nupkg.sha512"
+      "sha512": "sha512-LyNKpIpr4GraRD9+xlTviyxxbZpF6J4xJf7DvraC1mR8PSN/KonGc4rt8C/fjkD3vaEvgA7BcvsbHFCOjgczyQ==",
+      "path": "bcrypt.net-next/4.0.2",
+      "hashPath": "bcrypt.net-next.4.0.2.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Http/2.2.2": {
       "type": "package",

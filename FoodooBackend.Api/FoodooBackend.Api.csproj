@@ -6,6 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="BCrypt.Net-Next" Version="4.0.2" />
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
         <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.3" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
@@ -15,6 +16,17 @@
     <ItemGroup>
       <ProjectReference Include="..\FoodooBackend.Data\FoodooBackend.Data.csproj" />
       <ProjectReference Include="..\FoodooBackend.Logic\FoodooBackend.Logic.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="wwwroot\Uploads\among.png" />
+      <Content Remove="wwwroot\Uploads\ballin.png" />
+      <Content Remove="wwwroot\Uploads\bruh.png" />
+      <Content Remove="wwwroot\Uploads\daarkindje.jpg" />
+      <Content Remove="wwwroot\Uploads\FC1OTguVcAAi97G.png" />
+      <Content Remove="wwwroot\Uploads\jackBLACKholdupRINGDINGDINGDING.png" />
+      <Content Remove="wwwroot\Uploads\kat.jpg" />
+      <Content Remove="wwwroot\Uploads\Katje.jpg" />
     </ItemGroup>
 
 </Project>

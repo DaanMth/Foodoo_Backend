@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using FoodooBackend.Interfaces;
 using FoodooBackend.Models;
 using FoodooBackend.Models.ApiModels;
@@ -22,6 +23,21 @@ namespace FoodooBackend.Tests
         public Account GetAccountByUsername(string username)
         {
             return _account.FirstOrDefault(x => x.Username == username);
+        }
+
+        public Task<Account> GetGoogleAuthDataAsync(string token)
+        {
+            return null;
+        }
+
+        public Task<Account> GoogleAuthSelectAData(string username, string accountEmail)
+        {
+            return null;
+        }
+
+        public Task<Account> GoogleAuthInsertAccount(Account account)
+        {
+            return null;
         }
     }
 }
