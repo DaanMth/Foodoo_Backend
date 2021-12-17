@@ -23,6 +23,11 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
+    - name: Performance Test
+      uses: k6io/action@v0.1
+      with:
+        filename: LoadTest.js
+    
   
   
   publish:
