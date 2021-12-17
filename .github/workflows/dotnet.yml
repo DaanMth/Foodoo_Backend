@@ -27,9 +27,22 @@ jobs:
       uses: k6io/action@v0.1
       with:
         filename: LoadTest.js
+  codescan:
+    runs-on: windows-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v2
+      - uses: nuget/setup-nuget@v1.0.5
+      - uses: microsoft/setup-msbuild@v1.0.2
+      
+      - name: Set up projects
+        uses: security-code-scan/security-code-scan-add-action@main
+        
+      - name: test
+        run:
+          nuget restore
+          msbuild
     
-  
-  
   publish:
     
     runs-on: ubuntu-latest
