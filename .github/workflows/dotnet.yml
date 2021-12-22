@@ -30,7 +30,7 @@ jobs:
     - name: Spike Test
       uses: k6io/action@v0.1
       with:
-        filename: SpikeTets.js
+        filename: SpikeTest.js
     - name: Stres Test
       uses: k6io/action@v0.1
       with:
